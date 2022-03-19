@@ -6,16 +6,16 @@ router.get("/", (req, res) => {
   Category.findAll({
     include: {
       model: Product,
-      attributes: ["id", "product_name", "price", "stock", "category_id"],
+      // attributes: ["id", "product_name", "price", "stock", "category_id"],
     },
   })
     // if category does not exist, return error
-    .then((dbCatData) => {
-      if (!dbCatData) {
-        res.status(404).json({ message: "No categories found" });
-        return;
-      }
-      res.json(dbCatData);
+    .then((categories) => {
+      // if (!categories) => { {
+      //   res.status(404).json({ message: "No categories found" });
+      //   return;
+      // }
+      res.json(categories);
     })
     .catch((err) => {
       console.log(err);
@@ -34,12 +34,12 @@ router.get("/:id", (req, res) => {
       attributes: ["id", "product_name", "price", "stock", "category_id"],
     },
   })
-    .then((dbCatData) => {
-      if (!dbCatData) {
+    .then((category) => {
+      if (!category) {
         res.status(404).json({ message: "No categories found" });
         return;
       }
-      res.json(dbCatData);
+      res.json(category);
     })
     .catch((err) => {
       console.log(err);
@@ -51,7 +51,7 @@ router.post("/", (req, res) => {
   Category.create({
     category_name: req.body.category_name,
   })
-    .then((dbCatData) => res.json(dbCatData))
+    .then((category) => res.json(category))
     .catch((err) => {
       console.log(err);
       res.status(500).json(err);
@@ -65,12 +65,12 @@ router.put("/:id", (req, res) => {
       id: req.params.id
     }
   })
-    .then(dbCatData => {
-      if (!dbCatData) {
+    .then(category => {
+      if (!category) {
         res.status(404).json({message:'No category found with this id'});
         return;
       }
-      res.json(dbCatData);
+      res.json(category);
     })
     .catch(err => {
       console.log(err);
@@ -85,12 +85,12 @@ router.delete("/:id", (req, res) => {
       id: req.params.id
     }
   })
-    .then(dbCatData => {
-      if (!dbCatData){
+    .then(category => {
+      if (!category){
         res.status(404).json({message: 'No category found with that id.'});
         return;
       }
-      res.json(dbCatData);
+      res.json(category);
     })
     .catch(err => {
       console.log(err);
