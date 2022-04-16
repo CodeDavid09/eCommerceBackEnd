@@ -11,6 +11,7 @@ Your task is to build the back end for an e-commerce site by modifying starter c
 https://drive.google.com/file/d/1I5zmNlyTxtBA-EFULdISdjMIpgvyosg7/view
 
 
+
 ## Getting Started
 
 You’ll need to use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data.
