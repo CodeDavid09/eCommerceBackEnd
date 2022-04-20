@@ -11,6 +11,21 @@ Your task is to build the back end for an e-commerce site by modifying starter c
 https://drive.google.com/file/d/1I5zmNlyTxtBA-EFULdISdjMIpgvyosg7/view
 
 
+https://user-images.githubusercontent.com/91545451/164313428-77edf5f2-c35d-4d9f-a463-1cc794faee51.mp4
+
+
+https://user-images.githubusercontent.com/91545451/164313446-7465e34c-aaf0-4818-9d11-40ffcff7238d.mp4
+
+
+https://user-images.githubusercontent.com/91545451/164313457-21395d38-b87d-4cf6-b88b-75ac0b98f5b9.mp4
+
+
+https://user-images.githubusercontent.com/91545451/164313471-ed0352e2-932a-4f86-90f1-5686496080f8.mp4
+
+
+https://user-images.githubusercontent.com/91545451/164313463-5050c464-613f-4dd1-8547-5d53753be5f7.mp4
+
+
 
 ## Getting Started
 
