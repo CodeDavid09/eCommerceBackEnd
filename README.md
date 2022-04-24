@@ -9,7 +9,12 @@ Your task is to build the back end for an e-commerce site by modifying starter c
 ## DEMO
 
 https://drive.google.com/file/d/1I5zmNlyTxtBA-EFULdISdjMIpgvyosg7/view
-
+https://drive.google.com/file/d/17Y-U5qvLWOHEZzQjox6L15wGtvxvZlR8/view
+https://drive.google.com/file/d/1nE2MOS2XZCxBSq-gfIxxvXsMKwovPghX/view
+https://drive.google.com/file/d/1T5TIvppKg9VpkJPa32yyd_KCva8Z4QKk/view
+https://drive.google.com/file/d/113XO200ADXdijeoZXfHSIdSWssmgP4sH/view
+https://drive.google.com/file/d/1sBBu7xWEBEoa2Mnd9rT9qsvTHJygHhPK/view
+https://drive.google.com/file/d/1nUxanHbZTovZfOnMIqIVik5h1wWcxvkw/view
 
 https://user-images.githubusercontent.com/91545451/164313428-77edf5f2-c35d-4d9f-a463-1cc794faee51.mp4
 
